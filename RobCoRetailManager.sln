@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RRMDesktopUI", "RRMDesktopU
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RRMDataManager.Library", "RRMDataManager.Library\RRMDataManager.Library.csproj", "{B8B2A466-B496-4553-ACCC-E49E199BB73E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RRMDesktopUI.Library", "RRMDesktopUI.Library\RRMDesktopUI.Library.csproj", "{08D1B835-3A5B-47C8-974E-5A62659F282D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{B8B2A466-B496-4553-ACCC-E49E199BB73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8B2A466-B496-4553-ACCC-E49E199BB73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8B2A466-B496-4553-ACCC-E49E199BB73E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08D1B835-3A5B-47C8-974E-5A62659F282D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08D1B835-3A5B-47C8-974E-5A62659F282D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08D1B835-3A5B-47C8-974E-5A62659F282D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08D1B835-3A5B-47C8-974E-5A62659F282D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

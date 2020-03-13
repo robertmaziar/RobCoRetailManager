@@ -1,14 +1,11 @@
 ﻿using Caliburn.Micro;
-using RRMDesktopUI.Helpers;
+using RRMDesktopUI.Library.Api;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace RRMDesktopUI.ViewModels
 {
-    public class LoginViewModel : Screen
+	public class LoginViewModel : Screen
     {
 		private string _userName;
 		private string _password;
@@ -91,6 +88,8 @@ namespace RRMDesktopUI.ViewModels
 			{
 				ErrorMessage = "";
 				var result = await _apiHelper.Authenticate(UserName, Password);
+
+				await _apiHelper.GetLoggedInUserInfo(result.Access_Token);
 			}
 			catch (Exception ex)
 			{
