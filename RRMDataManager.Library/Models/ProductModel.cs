@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace RRMDataManager.Library.Models
 {
-    public class UserModel
+    public class ProductModel
     {
         /// <summary>
         /// The unique identifier for a given product.
         /// </summary>
-        public string Id { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string EmailAddress { get; set; }
-        public DateTime CreatedDate { get; set; }
+        public int Id { get; set; }
+        public string ProductName { get; set; }
+        public string Description { get; set; }
+        public decimal RetailPrice { get; set; }
+        public int QuantityInStock { get; set; }
     }
 }
