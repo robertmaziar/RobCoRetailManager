@@ -1,6 +1,7 @@
 ﻿using Caliburn.Micro;
 using RRMDesktopUI.Helpers;
 using RRMDesktopUI.Library.Api;
+using RRMDesktopUI.Library.Helpers;
 using RRMDesktopUI.Library.Models;
 using RRMDesktopUI.ViewModels;
 using System;
@@ -34,6 +35,7 @@ namespace RRMDesktopUI
                 .Singleton<IWindowManager, WindowManager>()
                 .Singleton<IEventAggregator, EventAggregator>()
                 .Singleton<ILoggedInUserModel, LoggedInUserModel>()
+                .Singleton<IConfigHelper, ConfigHelper>()
                 .Singleton<IAPIHelper, APIHelper>();
 
             GetType().Assembly.GetTypes()
