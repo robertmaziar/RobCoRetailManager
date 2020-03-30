@@ -8,8 +8,10 @@ namespace RRMDesktopUI.ViewModels
 {
 	public class LoginViewModel : Screen
     {
-		private string _userName;
-		private string _password;
+		// Testing purposes only.
+		private string _userName = "rob@robco.com";
+		private string _password = "Pwd12345.";
+		
 		private IAPIHelper _apiHelper;
 		private IEventAggregator _events;
 

@@ -2,7 +2,7 @@
 	@Id nvarchar(128)
 AS
 BEGIN
-SET NOCOUNT ON;
+	SET NOCOUNT ON;
 
 	SELECT *
 	FROM [dbo].[User]
